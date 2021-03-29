@@ -124,6 +124,11 @@ a {
   margin-top: var(--spacing-1);
 }
 
+#contact img {
+    display: inline-flex;
+    height: 100px;
+}
+
 @media only screen and (max-width: 600px) {
   .about-me-container {
     flex-direction: column;
