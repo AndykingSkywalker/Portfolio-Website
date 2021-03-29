@@ -1,3 +1,33 @@
 body {
     font-family: Roboto, sans-serif;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.navigation-options {
+    display: flex;
+    list-style-type: none;
+    padding: 2px;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+a {
+    color:#323232;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.navigation-option {
+    margin: 8px;
+}
